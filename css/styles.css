@@ -7,6 +7,7 @@ body {
 ul {
   list-style: none;
 }
+
 /* Шапка */
 /* 
   .header {
@@ -74,7 +75,42 @@ ul {
   text-decoration: none;
   color: #757575;
 }
-
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #2196f3;
+}
+/* Головний контент сторінки index.html */
+.section-hero {
+  background-color: #2f303a;
+}
+.section-hero-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  width: 700px;
+  height: 120px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section-hero-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
 /* Підвал */
 footer {
   background-color: #2f303a;
