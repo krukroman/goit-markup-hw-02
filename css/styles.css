@@ -1,0 +1,60 @@
+body {
+  font-family: Roboto, sans-serif;
+  width: 1600px;
+  background-color: #fff;
+  color: #000;
+}
+/* Шапка */
+/* 
+  .header {
+} 
+*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+}
+.logo-span {
+  color: #2196f3;
+}
+/* 
+  .navigation {
+}
+  .navigation-list {
+} 
+  .navigation-list-item {  
+}
+*/
+.navigation-list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #000;
+}
+/*
+  .header-contacts-list {
+}
+  .header-contacts-list-item {    
+}
+*/
+.header-contacts-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+/* 
+ */
