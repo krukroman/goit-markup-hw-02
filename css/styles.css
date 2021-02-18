@@ -4,6 +4,9 @@ body {
   background-color: #fff;
   color: #000;
 }
+ul {
+  list-style: none;
+}
 /* Шапка */
 /* 
   .header {
@@ -20,6 +23,12 @@ body {
   text-decoration: none;
 }
 .logo-span {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 /* 
@@ -40,6 +49,15 @@ body {
   text-decoration: none;
   color: #000;
 }
+.studio,
+.portfolio {
+  color: #2196f3;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+
 /*
   .header-contacts-list {
 }
@@ -56,5 +74,37 @@ body {
   text-decoration: none;
   color: #757575;
 }
-/* 
- */
+
+/* Підвал */
+footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.footer-address-contacts-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
