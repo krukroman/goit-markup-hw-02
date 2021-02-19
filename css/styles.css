@@ -95,8 +95,6 @@ body {
 .section-hero-button {
   cursor: pointer;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -170,6 +168,54 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Сторінка Портфоліо */
+/* Секція-Фільтри */
+/* .filter {
+} */
+.filter-header,
+.products-header {
+  opacity: 0;
+}
+.filter-list {
+  list-style: none;
+}
+.filter-list-button {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filter-list-button:hover,
+.filter-list-button:focus {
+  background: #2196f3;
+  color: #fff;
+}
+/* Секція-Наші продукти */
+.products-list {
+  list-style: none;
+}
+.products-list-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.products-list-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
