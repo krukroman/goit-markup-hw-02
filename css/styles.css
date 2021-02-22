@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color: #212121;
 }
@@ -43,7 +43,6 @@ body {
   list-style: none;
 }
 .navigation-list-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
