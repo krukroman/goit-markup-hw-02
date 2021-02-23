@@ -104,7 +104,8 @@ body {
   letter-spacing: 0.06em;
   color: #fff;
 }
-.section-hero-button:hover {
+.section-hero-button:hover,
+.section-hero-button:focus {
   background-color: #188ce8;
 }
 
