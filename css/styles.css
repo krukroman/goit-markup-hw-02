@@ -246,7 +246,6 @@ body {
 .footer-addres-list {
   list-style: none;
   color: #ffffff;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -255,7 +254,6 @@ body {
 }
 .footer-address-contacts-link {
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
