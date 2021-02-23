@@ -10,9 +10,9 @@ body {
 
 /* Шапка */
 
-/* .header {
+.header {
   border-bottom: 1px solid #ececec;
-} */
+}
 
 .logo {
   font-family: Raleway;
@@ -113,7 +113,7 @@ body {
 /* .advantages {
 }*/
 .advantages-header {
-  opacity: 0;
+  display: none;
 }
 .advantages-list {
   list-style: none;
@@ -157,6 +157,12 @@ body {
 .our-team-cards-list {
   list-style: none;
 }
+.our-team-card {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .our-team-card-name {
   font-style: normal;
   font-weight: 500;
@@ -181,7 +187,7 @@ body {
 .pageheader,
 .filter-header,
 .products-header {
-  opacity: 0;
+  display: none;
 }
 .filter-list {
   list-style: none;
@@ -207,6 +213,10 @@ body {
 /* Секція-Наші продукти */
 .products-list {
   list-style: none;
+}
+.products-list-item {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .products-list-header {
   font-style: normal;
