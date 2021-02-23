@@ -53,6 +53,9 @@ body {
 .header-contacts-link:focus {
   color: #2196f3;
 }
+.navigation-list-link.current {
+  color: #2196f3;
+}
 
 /*  
   .header-contacts-list-item {    
@@ -209,6 +212,7 @@ body {
   background: #2196f3;
   color: #fff;
 }
+
 /* Секція-Наші продукти */
 .products-list {
   list-style: none;
